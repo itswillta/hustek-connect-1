@@ -2,7 +2,7 @@
 
 Repo nội bộ chuẩn bị **HUSTEK CONNECT #01: Future-proof bản thân trong kỷ nguyên AI** (13/06, AI4LIFE). Collaborators: **Tạ Quốc Huy**, **Hà Xuân Thuyên**.
 
-Mục tiêu chính của file này: hướng dẫn AI assistant (Cursor, v.v.) cách làm việc trong repo — **không** chứa toàn bộ talking points (nội dung sống trong `ta_quoc_huy/`, `ha_xuan_thuyen/`, `phoi_hop/`).
+Mục tiêu chính của file này: hướng dẫn **AI agent** (Cursor, Claude Code, OpenCode, Codex, …) cách làm việc trong repo — **không** chứa toàn bộ talking points (nội dung sống trong `ta_quoc_huy/`, `ha_xuan_thuyen/`, `phoi_hop/`).
 
 ---
 
@@ -16,9 +16,13 @@ Khi tạo hoặc đổi tên file/folder → đọc skill **naming-convention** 
 
 ---
 
+## AI agent
+
+Repo hỗ trợ làm việc qua **AI agent**, ví dụ: **Cursor**, **Claude Code**, **OpenCode**, **Codex** (và tương tự). Cùng đọc [AGENTS.md](AGENTS.md) và `.agents/skills/`; Claude Code có thể dùng thêm [CLAUDE.md](CLAUDE.md) nếu file đó được tạo (mirror AGENTS).
+
 ## Người mới vào repo
 
-Lần đầu / chưa rõ vai / hỏi “repo này là gì”, “tôi nên làm gì” → chạy skill **[repo-onboarding](.agents/skills/repo-onboarding/SKILL.md)** (AI đọc AGENTS + `tai_lieu_chung/CONTEXT.md`, hỏi vai trò, chỉ folder và việc tiếp theo).
+Lần đầu / chưa rõ vai / hỏi “repo này là gì”, “tôi nên làm gì” → chạy skill **[repo-onboarding](.agents/skills/repo-onboarding/SKILL.md)** (agent đọc AGENTS + `tai_lieu_chung/CONTEXT.md`, hỏi vai trò, chỉ folder và việc tiếp theo).
 
 ---
 

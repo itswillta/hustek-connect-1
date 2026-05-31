@@ -22,7 +22,7 @@ Dự đoán câu hỏi + bullet trả lời. Bổ sung sau rehearsal / comment S
 
 ## Học tập & AI
 
-### “Em code bằng Cursor/Copilot hết, có sao không?”
+### “Em code bằng AI (Cursor, Copilot, Claude Code, Codex…) hết, có sao không?”
 
 - *(điền: thông điệm 3, 9)*
 

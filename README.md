@@ -18,7 +18,7 @@ Kho tài liệu **nội bộ** chuẩn bị workshop **HUSTEK CONNECT #01: Futur
 
 1. **Một nguồn sự thật** cho nội dung đã đăng (post Facebook) và timeline chính thức.
 2. **Prep tách theo người** — mỗi diễn giả có folder riêng; phần phối hợp nằm ở `phoi_hop/`.
-3. **Hỗ trợ soạn nội dung** — markdown dễ sửa; có thể dùng AI (Cursor) theo [AGENTS.md](AGENTS.md) và skills trong `.agents/skills/`.
+3. **Hỗ trợ soạn nội dung** — markdown dễ sửa; có thể dùng **AI agent** (Cursor, Claude Code, OpenCode, Codex, …) theo [AGENTS.md](AGENTS.md) và skills trong `.agents/skills/`.
 4. **Tùy chọn làm slide** — từ nội dung đã soạn, dùng skill [revealjs](.agents/skills/revealjs/SKILL.md) để tạo bài trình chiếu HTML (mở trình duyệt, chuyển slide như PowerPoint).
 
 ---
@@ -50,7 +50,7 @@ Nguồn chi tiết: [tai_lieu_chung/bai_dang_facebook_hustek_connect_01.md](tai_
 
 ```
 hustek-connect-1/
-├── AGENTS.md                 # Luật chung cho AI + cộng tác viên dùng Cursor
+├── AGENTS.md                 # Luật chung cho AI agent + cộng tác viên
 ├── README.md                 # File này — hướng dẫn cho người
 ├── tai_lieu_chung/           # Timeline, post FB, kịch bản moderator
 ├── ta_quoc_huy/              # Prep diễn giả Tạ Quốc Huy
@@ -82,7 +82,7 @@ Mỗi folder prep có **`CONTEXT.md`** — đọc file đó trước khi sửa n
 ### 2. Lần đầu vào repo
 
 - Đọc [tai_lieu_chung/CONTEXT.md](tai_lieu_chung/CONTEXT.md) rồi `CONTEXT.md` trong folder của bạn.
-- Nếu dùng **Cursor / AI**: mở [AGENTS.md](AGENTS.md); có thể nhắc AI chạy skill **[repo-onboarding](.agents/skills/repo-onboarding/SKILL.md)** để được hỏi vai trò và gợi ý việc tiếp theo.
+- Nếu dùng **AI agent** (Cursor, Claude Code, OpenCode, Codex, …): mở [AGENTS.md](AGENTS.md); có thể nhắc AI agent chạy skill **[repo-onboarding](.agents/skills/repo-onboarding/SKILL.md)** để được hỏi vai trò và gợi ý việc tiếp theo.
 
 ### 3. Prep diễn giả (ví dụ `ta_quoc_huy/`)
 
@@ -103,14 +103,14 @@ Danh sách đầy đủ và outline: [ta_quoc_huy/CONTEXT.md](ta_quoc_huy/CONTEX
 **Reveal.js** là thư viện slide chạy trên **trình duyệt** (HTML + CSS), không bắt buộc PowerPoint.
 
 - Soạn / chỉnh nội dung trong repo trước.
-- Nhờ AI (Cursor) dùng skill **[revealjs](.agents/skills/revealjs/SKILL.md)** để tạo file HTML (vd. `presentation.html`).
+- Nhờ AI agent (Cursor, Claude Code, OpenCode, Codex, …) dùng skill **[revealjs](.agents/skills/revealjs/SKILL.md)** để tạo file HTML (vd. `presentation.html`).
 - Mở file bằng Chrome/Edge → trình chiếu (phím mũi tên, fullscreen).
 
 Ví dụ tham khảo trong repo: `.agents/skills/revealjs/examples/`.
 
 ---
 
-## Skills cho AI (`.agents/skills/`)
+## Skills cho AI agent (`.agents/skills/`)
 
 | Skill | Khi dùng |
 |-------|----------|

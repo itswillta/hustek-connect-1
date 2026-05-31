@@ -54,6 +54,7 @@ Gồm các ý sau (ngắn, có dấu):
 - **Nguồn chính:** `tai_lieu_chung/bai_dang_facebook_hustek_connect_01.md`. Kịch bản moderator = reference only (thứ tự khác FB).
 - **4 folder:** `tai_lieu_chung/`, `ta_quoc_huy/`, `ha_xuan_thuyen/`, `phoi_hop/` — mỗi folder có `CONTEXT.md`.
 - **Skills:** `repo-onboarding` (file này), [naming-convention](../naming-convention/SKILL.md) (đặt tên path).
+- **AI agent:** Cursor, Claude Code, OpenCode, Codex, … — đọc [AGENTS.md](../../AGENTS.md); skills trong `.agents/skills/`.
 - **Path:** snake_case, Việt không dấu; nội dung markdown có dấu.
 
 ---

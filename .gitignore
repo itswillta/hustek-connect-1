@@ -29,7 +29,7 @@ Desktop.ini
 *.swo
 *~
 
-# Cursor (local IDE; skills live in .agents/)
+# Local IDE/agent config (skills live in .agents/)
 .cursor/
 
 # Build / cache
